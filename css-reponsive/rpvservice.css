@@ -1,0 +1,12 @@
+/* mobile */
+@media(max-width:46.1875em){
+    .service-item{
+        width: 100%;
+    }
+    .service-item .social-icon i{
+        padding: 2px 4px;
+    }
+    .service-item .down-app {
+        margin-left: 18px;
+    }
+}

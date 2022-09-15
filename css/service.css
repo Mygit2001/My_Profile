@@ -1,0 +1,86 @@
+@import url("./base.css");
+@import url("common.css");
+/* css header */
+/* css main content */
+.service-item {
+  border-radius: 4px;
+  color: var(--white-color);
+  border: 1px solid #ccc;
+  width: 32%;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  grid-gap: 8px;
+  padding: 16px;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.service-item h2 {
+  margin-bottom:  20px;
+}
+.service-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: rgb(60, 112, 60);
+}
+.service-item:hover .box {
+  background-color: rgb(25, 38, 41);
+}
+.service-item:hover .box i {
+  color: tan;
+}
+.service-item .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: tan;
+  margin-bottom: 8px;
+}
+.service-item .box i {
+  color: var(--black-color);
+  font-size: 16px;
+}
+.service-item p {
+  line-height: 22px;
+}
+
+/* css works */
+.service-item-work {
+  position: relative;
+  height: 20px;
+  background-color: var(--white-color);
+  width: 100%;
+  margin-top: 6px;
+}
+.item-work-percent {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 12px;
+  height: 100%;
+  background-color: rgb(29, 116, 173);
+}
+/* css project */
+.service-item .down-app {
+  margin-top: 24px;
+  display: block;
+}
+.down-app .apps {
+  margin-left: 34px;
+  margin-bottom: 16px;
+  width: 68%;
+}
+.down-app .apps:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.down-app .apps a {
+  text-decoration: none;
+}
+.down-app .apps .apps-item {
+  width: 100%;
+  border-radius: 4px;
+}

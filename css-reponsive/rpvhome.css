@@ -1,0 +1,51 @@
+/* pc */
+@media(min-width:64em){
+    .menu-mobile-btn{
+        display: none;
+    }
+    #modal{
+        display: none;
+    }
+    .menu-mobile-btn{
+        display: none;
+    }
+}
+/* mobile & tablet */
+@media(max-width:63.9375em){
+    .social-links{
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+    .container{
+        width: 90%;
+    }
+    .container h1{
+        margin:0 auto;
+    }
+    .home p {
+        margin: 0 auto;
+        margin-top: 16px;
+        text-align: center;
+    }
+    .nav-menu #nav-menu-list{
+        display: none;
+    }
+    #close-btn-js{
+        display: none;
+        z-index: 2;
+        
+    }
+}
+/* mobile */
+@media(max-width:46.1875em){
+    /* .nav-menu #nav-menu-list li{
+        margin-right: 12px ;
+    }
+    .nav-menu{
+        margin-top: 16px;
+    }
+   .nav-menu-mobile{
+       display: block;
+   } */
+
+}

@@ -1,0 +1,220 @@
+@import url('base.css');
+@import url('common.css');
+
+.about-items{
+    width: 49%;
+    padding: 20px 40px;
+}
+.about-items-infor{
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+.about-items-infor p{
+    color: var(--white-color);
+    font-size: 1rem;
+    opacity: 0.8;
+    line-height: 1.4rem;
+}
+.infor-heading{
+    display: flex;
+    align-items: center;
+}
+.about-infor-icon{
+    text-align: center;
+    margin-right: 18px;
+    font-size: 16px;
+    font-weight: 200;
+    padding:6px;
+    border-radius: 50%;
+    background-color: rgb(39, 220, 26);
+}
+.about-items .about-item-img{
+    padding-top: 4px;
+    display: flex;
+}
+.about-img{
+    width: 100%;
+    border-radius:50%;
+}
+.list-lg{
+    display: flex;
+}
+.list-lg-item{
+    border: 1px solid #0dab93;
+    padding: 4px 8px;
+    margin-right: 4px;
+    color: var(--white-color);
+    opacity: 0.9;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+/* css interest */
+/* .about-interest{
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.wrap-interest{
+    display: flex;
+    width: 50%;
+}
+.about-interest-item{
+    width: 50%;
+    margin-left: 6px;
+    display:block;
+    border-radius: 3px;
+   margin-top: 24px;
+}
+
+.interest-item-child{
+    width: 100%;
+    min-height: 77px;
+    text-align: center;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.interest-item-child:hover{
+    color: chartreuse;
+    background-color: rgba(158, 154, 158,0.5);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.interest-item-child .interest-child-icon{
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+ */
+
+/* css skill, css experiences */
+.skill, .experiences{
+    color: var(--white-color);
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+.skill-item,
+.exp-item{
+    width: 48%;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 40px;
+}
+.type-skill,
+.exp-item-type {
+    display: flex;
+    justify-content: center;
+    padding:10px 40px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.skill-item-heading{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.soft-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-item-heading p {
+    opacity: 0.9;
+    font-weight: bold;
+}
+.skill-item-heading i{
+    font-size: 20px;
+}
+.skill-item-chart{
+    width: 100%;
+    height: 10px;
+    margin: 8px 0 8px 0;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.skill-item-percent{
+    height: 100%;
+    background-color: chartreuse;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+.skills_soft-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.skills_soft-list-item{
+    text-align: center;
+    padding: 30px 20px 30px 30px;
+}
+
+.skills_soft-item-contain{
+    position: relative;
+}
+.skills_soft-item-contain svg {
+    margin-bottom: 8px;
+}
+.skills_soft-item-num{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    color: #e4e3e5;
+    font-weight: 500;
+}
+.skills_soft-item-title {
+    margin-top: 16px;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* css experiences */
+.exp-item-content{
+}
+.exp-item-wrap{
+    display: flex;
+}
+.exp-item-time{
+    font-size: 0.9rem;
+    color: #0dab93;
+    width: 30%;
+    font-weight: bold;
+}
+.exp-item-work {
+    position: relative;
+    margin-left: 24px;
+    padding: 4px;
+    font-size: 0.8rem;
+}
+.exp-item-work  h2 {
+    margin-bottom: 8px;
+}
+.exp-item-work::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -15px;
+    height: 120%;
+    width: 3px;
+    background-color: #0dab93;
+}
+.exp-item-dot{
+    position: absolute;
+    top: 0;
+    left: -19px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #0dab93;
+}
+.exp-item-work-content{
+    margin-bottom: 16px;
+}
+

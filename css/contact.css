@@ -1,0 +1,91 @@
+@import url("base.css");
+@import url("common.css");
+.contact {
+  margin-top: 30px;
+  padding:20px 40px;
+}
+.content-list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.contact-infor {
+  width: 49%;
+  background-color: (0, 0, 0, 0.5);
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: var(--white-color);
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.contact-infor-icon {
+  font-weight: 200;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  margin-right: 9px;
+  background-color: rgb(117, 113, 113);
+  border-radius: 50%;
+}
+.contact-infor-content > p {
+  margin-bottom: 8px;
+  color: #0dab93;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.contact-infor-socials a {
+  padding: 6px 6px 6px 0;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.contact-infor-socials a:hover {
+  opacity: 0.5;
+}
+
+/* css form contact */
+.contact-form {
+  width: 100%;
+  background-color: (0, 0, 0, 0.2);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form-item-half {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 2px;
+}
+.contact-form div {
+  margin-bottom: 4px;
+}
+.contact-form-item-btn {
+  display: flex;
+  justify-content: center;
+}
+.contact-form .btn-send {
+  margin-top: 16px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 2px;
+  color:brown;
+  background-color: rgb(247, 172, 74);
+  opacity: 0.9;
+}
+.contact-form .btn-send:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

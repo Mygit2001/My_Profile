@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    font-weight: 400;
+    font-family: verdana;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    /* background: url('../image/a.jpg') top right no-repeat; */
+    background-color: rgb(10, 18, 49);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: linear-gradient(to right top, #4f3745, #603658, #6b3570, #6e388d, #6340af, #6641ba, #6a43c6, #6d44d1, #8c39c3, #a32db5, #b520a5, #c21495); */
+}
+ul{
+    list-style: none;
+   }
+a{
+    text-decoration: none;
+}
+:root {
+    --white-color : #fff;
+    --black-color : #000;
+    --blue-color : #0d6efd;
+}
+.fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #ccc;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(190, 190, 189);
+}

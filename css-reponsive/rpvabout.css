@@ -1,0 +1,29 @@
+/* pc */
+@media(min-width:64em){
+     
+}
+/* tablet */
+@media(min-width:46.25em) and (max-width:63.9375em){
+}
+/* mobile */
+@media(max-width:46.1875em){
+    .nav-menu #nav-menu-list{
+        display: block;
+    }
+    .about-items{
+        width: 100%;
+    }
+    .about-skill{
+        display: block;
+    }
+    .about-skill-item{
+        width: 100%;
+    }
+    .wrap-interest{
+        display: block;
+        width: 100%;
+    }
+    .about-interest-item{
+        width: 96%;
+    }
+}

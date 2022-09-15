@@ -1,0 +1,136 @@
+@import url('./base.css');
+h1{
+    font-size: 42px;
+    color: var(--white-color);
+}
+ul{
+    padding-left: 0;
+}
+.home{
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px 70px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home p{
+    margin-top: 12px;
+    font-size: 24px;
+    color: white;
+}
+ /* css mobile */
+ .menu-mobile-btn{
+     position: fixed;
+     top: 0;
+    right:0;
+    font-size: 30px;
+    padding: 16px;
+    color: var(--white-color);
+}
+#modal{
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-container{
+    position: fixed;
+    top: 60px;
+    left: 16px;
+    right: 16px;
+    height: 80vh;
+    border-radius: 4px;
+    transition: ease-in-out 0.2s;
+    background-color: rgba(0,0,0,0.8);
+}
+.modal-container .modal-item-active{
+    padding: 24px 16px;
+}
+.modal-item-active a{
+    color: white;
+    font-size:18px;
+}
+/* .modal-menu-mobile{
+    position: fixed;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    z-index: 1;
+    display:none;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.8);
+    transition: ease-in-out 0.2s;
+    border-radius: 4px;
+    padding: 10px 0;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+} */
+
+
+/* . */
+.nav-menu a{
+    position: relative;
+    color : var(--white-color);
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.nav-menu a::before{
+   content:"";
+   position: absolute;
+   width: 0;
+   left: -20px;
+   bottom: -8px;
+   border-radius: 8px;
+   height: 4px;
+   background-color: chartreuse;
+}
+.nav-menu a:hover::before{
+    width: 100%;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+.nav-menu{
+    margin-top: 16px;
+}
+.nav-menu #nav-menu-list{
+    display: flex;
+    
+}
+.nav-menu #nav-menu-list li{
+    margin-right: 14px ;
+    padding: 8px 16px;
+    margin-left: -16px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.social-links{
+    margin-right: 6px;
+    display: flex;
+    margin-top: 16px;
+}
+.social-links a{
+    color:#e4e6eb;
+    margin-right: 0.6rem;
+    padding: 1rem;
+    background-color: rgb(95, 117, 117);
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+.social-links a:hover{
+    color: #7e20e3;
+    background-color: burlywood;
+}
+
+/* css service */
