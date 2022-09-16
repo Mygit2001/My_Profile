@@ -1,29 +1,51 @@
 /* pc */
-@media(min-width:64em){
-     
+@media (min-width: 64em) {
 }
 /* tablet */
-@media(min-width:46.25em) and (max-width:63.9375em){
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
 }
 /* mobile */
-@media(max-width:46.1875em){
-    .nav-menu #nav-menu-list{
-        display: block;
-    }
-    .about-items{
-        width: 100%;
-    }
-    .about-skill{
-        display: block;
-    }
-    .about-skill-item{
-        width: 100%;
-    }
-    .wrap-interest{
-        display: block;
-        width: 100%;
-    }
-    .about-interest-item{
-        width: 96%;
-    }
+@media (max-width: 46.1875em) {
+  .nav-menu #nav-menu-list {
+    display: block;
+  }
+  .about-items {
+    width: 100%;
+  }
+  .about-skill {
+    display: block;
+  }
+  .about-skill-item {
+    width: 100%;
+  }
+  .wrap-interest {
+    display: block;
+    width: 100%;
+  }
+  .about-interest-item {
+    width: 96%;
+  }
+  .list-lg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 12px 12px;
+  }
+  .skill {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .skill-item {
+    width: 83%;
+  }
+  .type-skill {
+    padding : 10px 24px;
+  }
+  .experiences {
+    display: block;
+  }
+  .exp-item {
+    width: 92%;
+  }
 }

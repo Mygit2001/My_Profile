@@ -91,9 +91,12 @@ h3 {
 }
 
 /* Mobile */
+body {
+  position: relative;
+}
 .menu-mobile-btn {
   position: absolute;
-  top: 0;
+  top: 16px;
   right: 0;
   color: var(--white-color);
   padding: 16px;
